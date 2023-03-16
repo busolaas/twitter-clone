@@ -1,0 +1,40 @@
+main {
+  margin: 0 35px 0 35px;
+}
+
+body {
+  /* padding-bottom: 500px; */
+}
+
+p {
+  margin: 0;
+  font-family: arial;
+}
+
+div.container {
+  float: left;
+  height: 100%;
+}
+
+div.main-container-1 {
+  width: 21%;
+}
+
+div.main-container-2 {
+  width: 79%;
+}
+
+div.main-container-2 div.sub-container-1 {
+  width: 59%;
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(235, 232, 232);
+  border-top: none;
+  border-bottom: none;
+}
+
+div.main-container-2 div.sub-container-2 {
+  width: 37%;
+  float: right;
+}

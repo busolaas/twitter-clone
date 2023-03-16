@@ -1,0 +1,42 @@
+div.messages-div {
+  position: fixed;
+  bottom: 0;
+  right: 23px;
+  background-color: rgb(255, 252, 252);
+  height: 55px;
+  width: 340px;
+  padding: 0 15px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.486);
+  z-index: 100;
+}
+
+div.messages-subdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div.messages-div-1 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.messages-div-2 {
+  margin: 5px 0;
+}
+
+p.messages-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img.messages-img {
+  height: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.15s;
+}
+
+img.messages-img:hover {
+  background-color: lightgray;
+}
